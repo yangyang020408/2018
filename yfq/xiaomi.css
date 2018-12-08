@@ -1,0 +1,82 @@
+body{
+    margin: 0px auto;
+    background-color: white;
+  }
+  .nav-yfq{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .yfq-nav{
+    background-color: #333;
+  }
+  .yfq{
+  display:inline-block;
+  height: 40px;
+  color: #b0b0b0;
+  background: #333;
+  font-size: 10px;
+  margin: auto 0px auto 100px; 
+  line-height:40px;
+  }
+  .right-yfq{
+    height: 40px;
+    color: #b0b0b0;
+    font-size: 10px;
+    background-color: #333;
+    float: right;
+    margin: auto -125px auto 100px;
+    margin-right: 125px;
+    line-height: 40px;
+  }
+  .shangbiao-yfq{
+    display: inline-block;
+  }
+  .yemei-yfq{
+    color: #333;
+    font-size: 16px;
+    word-spacing: 20px;
+    margin-left: 300px;
+    margin-top: -30px;
+    height: 100px;
+    width:850px;
+  
+  }
+  a{
+    text-decoration: none;
+    color: #b0b0b0;
+  }
+  
+  .xiaomi{
+    margin-top:5px;
+    top:60px;
+    margin-left:100px;
+  }
+  .the second line{
+    position: relative;
+    z-index: 20;
+    height: 100px;
+    display:block;
+  }
+  .shangping-27{
+    position: absolute;
+    top:88px;
+    left:0px;
+    z-index:21;
+    width:234px;
+    height:460px;
+    font-size:14px;
+}
+.shangping{
+  height:419px;
+  border:0;
+  background-color:rgba(0,0,0,0.6);
+  margin: 0px;
+  padding: 20px 0;
+  list-style-type: none;
+}
+.search-yfq{
+  float: right;
+  margin-top: 25px;
+  width:296px;
+  height: 50px;
+}
