@@ -1,0 +1,311 @@
+body{
+  color:#333;
+  background-color:#fff;
+  min-width: 1226px;
+  margin-left:auto;
+  margin-right:auto;
+  margin:0;
+  padding:0;
+}
+#yemei{
+  position: relative;
+  z-index: 30;
+  height: 40px;
+  font-size:12px;
+  color:#b0b0b0;
+  background-color:#333;
+}
+a{
+  color:#b0b0b0;
+  text-decoration: none;
+}
+#daohanglan{
+width:1226px;
+margin-right: auto;
+margin-left:auto;
+}
+#wenzi-nav-27{  
+  float: left;
+  height:40px;
+  line-height: 40px;
+}
+#yfq-27{
+  color:#424242;
+  margin:0.1em;   
+}
+#wenzi-right{
+  line-height: 40px;
+  float: right;
+}
+#gouwuche-27{
+  float: right;
+  height: 40px;
+  position: relative;
+  width:120px;
+  margin-left:15px;
+  line-height: 40px;
+}
+
+#logo{
+  position: relative;
+  width: 1226px;
+  margin:0 auto;
+}
+#logo-xiaomi{
+  float: left;
+  width:62px;
+  margin-top: 22px; 
+}
+#second-nav-27{
+  float: left;
+  width:850px;
+  height: 87px;
+}
+#wenzi-27{
+  position: relative;
+  z-index:10px;
+  float:left;
+  width:820px;
+  margin:0px;
+  height:88px;
+  padding:12px 0px 0px 30px;
+  font-size: 16px;
+}
+#wenzi-yfq a{
+  text-decoration: none;
+  float: left;
+  color:black;
+  font-size:16px;
+  display: inline-block;
+  padding: auto;
+  margin: 25px 10px 10px 10px;
+}
+#thing{
+  position: absolute;
+  top:88px;
+  left:0px;
+  z-index:21;
+  width:234px;
+  height:460px;
+  font-size:14px;
+}
+#thing-wenzi{
+  height:419px;
+  border:0;
+  background-color:rgba(0,0,0,0.6);
+  margin: 0px;
+  padding: 20px 0;
+  list-style-type: none;
+}
+li a{
+  color:#fff;
+}
+li{
+  width: 234px;
+  height: 42px;
+  padding-left: 30px;
+}
+#search-27{
+  float: right;
+  margin-top: 25px;
+  width:296px;
+  height: 50px;
+}
+#GTR input{
+  position: relative;
+  width:296px;
+  height:50px;
+}
+#beijing{
+  position: relative;
+  width: 1226px;
+  height: 460px;
+  padding: 0px;
+}
+#small-wenzi{
+margin-right:auto;
+margin-left:auto;
+position: relative;
+z-index: 10px;
+width:1226px;
+height:196px;
+}
+#wenzi-1701{
+width:234px;
+float: left;
+margin-top:14px;
+min-height: 1px;
+}
+#small-yfq{
+height:170px;
+margin:0px;
+padding:3px;
+list-style-type: none;
+font-size:12px;
+text-align:center;
+background-color: #5f5750;
+}
+#small-picture{
+position: relative;
+width:70px;
+height: 82px;
+float: left;
+padding:0 3px;
+}
+#tupian-27{
+-webkit-text-stroke-width: 0.2px;
+font-style: normal;
+width:30px;
+height:30px;
+display: block;
+margin-bottom: 4px;
+font-size: 24px;
+line-height: 24px;
+margin: auto;
+}
+#picture-small{
+display: block;
+padding-top: 18px;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+color: rgba(255,255,255,0.7);
+transition: color .2s;
+}
+
+#picture-bottom-yfq{
+margin-top:14px;
+margin-bottom:26px;
+width:978px;
+float:left;
+margin-left:14px;
+min-height: 1px;
+}
+#picture3{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#first{
+  padding-left:0px;
+  margin-left: 10px;
+  float: left;
+  width: 316px;
+  height: 176px;
+  }
+#second{
+display:block;
+height: 176px;
+color:#757575;
+text-decoration: none;
+}
+#third{
+width:316px;
+height: 176px;
+}
+.y2002{
+  position: relative;
+  float: left;
+  width: 127px;
+  padding-right: 15px;
+  visibility: hidden;
+  text-align: right;
+  color: #333;
+}
+li{
+  display: list-item;
+  text-align: -webkit-match-parent
+}
+.dapei-27{
+  height: 686px;
+  margin-bottom: 8px;
+}
+.dapei-head{
+  position: relative;
+  height: 58px;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #000000;
+}
+.dapei-1701{
+  position: relative;
+  top: 0;
+  right:0;
+  float: right;
+  margin-right: 160px;
+  color: #000000;
+}
+.dapei-wenzi{
+  font-size: 18px;
+  margin: 15px;
+  float: left;
+  color: #000000;
+}
+.yyy{
+  margin-left: 180px;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #000;
+  float: left;
+}
+.head-right{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.dapei-wenzi a:link{
+  color: #000000;
+  text-decoration: none;
+}
+.dapei-wenzi a:hover{
+  color: #ff6700;
+  text-decoration: none;
+  text-decoration:underline;
+}
+.dapei-second{
+  display: block;
+}
+.row-27{
+  margin-left: -14px
+}
+.row-right-27{
+  width: 234px;
+  float: left;
+  margin-left: 14px;
+  min-height: 1px;
+}
+.row-right-tupian{
+  margin: 0 0 -14px -14px;
+  height: 614px;
+  padding: 0;
+  list-style-type: none;
+}
+.erji-yfq-27{
+  height: 300px;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  float: left;
+  width: 234px;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  background: #fff;
+  transition: all .2s linear;
+}
+.row-right-27 img {
+  width: 234px;
+  border: 0;
+}
+.erji-yfq-27 img {
+  height:300px;
+}
+.image{
+  border: 0;
+}
