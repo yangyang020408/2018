@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="refresh" content="2">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible">
+  <title>小游戏</title>
+</head>
+<body>
+  <script>
+    function playgame() {
+      var people = ['陈泽宇','沈宇峰','王达','李一鸣','徐志豪','孙睿褀','徐杨','濮徐杰',
+                '陈卓豪','王昱','林超凡','孔易飞','王诚礼','王韫韬','顾强','刘通','薛宇成',
+                '俞浩','陈李鹏','徐超','顾伟豪','王钦鹏','孙权','潘铖','朱铭杨','张程','杨吉']
+      var time = ['早上','中午','下午','晚上']
+      var place = ['操场','医院','卧室','超市','马路']
+      var activity = ['散步','跑步','购物','看病','睡觉']
+
+      //  var peopleRandom = chooseRandStrInArray(people)
+      //  var timeRandom = chooseRandStrInArray(time)
+      //  var placeRandom = chooseRandStrInArray(place)
+      //  var actRandom = chooseRandStrInArray(activity)
+
+      var playgame = chooseRandStrInArray(people) + "" + chooseRandStrInArray(time) + "" + chooseRandStrInArray(place) + "" + chooseRandStrInArray(activity);
+      document.write(playgame);
+      function chooseRandStrInArray(array){
+        return array[Math.floor(Math.random() * array.length)]
+      }
+    }
+    playgame();
+  </script>
+</body>
+</html>
